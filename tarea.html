@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>Tarea</title>
+</head>
+<style>
+    .divImg1{
+    border: 2px solid black;
+    margin-right: 23px;
+    width: 100%;
+    text-align: left;
+    height: 130px;
+    }
+    
+    .der{
+        float: right;
+    }
+
+    .cent{
+        float: center;
+        text-align: center;
+        font-family: cursive;
+    }
+
+    #serif{
+        font-family: 'DotGothic16', sans-serif;
+        font-size: 40px;
+    }
+
+    #sans{
+        font-family: 'Lobster', cursive;
+    }
+
+    .btnE{
+        background-color: blueviolet;
+        width: 200px;
+    }
+
+    .colorB{
+        border: 2px solid black;
+        margin-right: 23px;
+        width: 100%;
+        text-align: left;
+        height: 40px;
+        background-color: turquoise;
+    }
+
+    .tablaE{
+        border: 2px solid black;
+    }
+
+    .mini{
+        border: 2px solid white;
+        width: 40px;
+        height: 25px;
+        border-left: 5px;
+        float: right;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .sust{
+        background: url(logo2.png);
+    }
+
+</style>
+<body>
+    <div>
+        <div class="divImg1">
+            <img src="logo1.png" width="80" height="110">  
+            <img src="logo2.png" width="80" height="110" class="der">
+        </div>
+        <br>       
+    </div>
+    <div class="cent">
+        
+       <p id="serif"> Ejercicio de Repaso</p>
+       <p id="sans"> Fernando Granja Fernandez</p>
+    </div>
+    <div class="colorB">
+        <div class="mini"> <a href="#EjmTexto">Texto</a> </div>
+        <div class="mini"> <a href="#EjmTabla">Tabla</a> </div>
+        <div class="mini"> <a href="#LinkE">link</a> </div>
+    </div>
+    <div id="EjmTexto" style="border-top: black;">
+        <p id="serif">EJEMPLO DE TEXTO</p>
+        <p id="sans">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eget lacus finibus, efficitur odio vel, varius diam. Curabitur eget aliquet mauris. Aliquam cursus placerat lacus. Nunc vel cursus enim. Donec maximus consectetur posuere. Nunc laoreet neque sit amet arcu accumsan, at ultrices nisi pretium. Suspendisse in condimentum augue. Nulla a aliquam sapien. In in lobortis metus. Nam faucibus rutrum odio ut laoreet.
+
+            Donec congue vitae orci ut lobortis. Maecenas in orci nec sem elementum pellentesque non nec orci. Quisque ultricies ante massa. Mauris fermentum porta tincidunt. Aliquam nec ultricies nulla. Ut laoreet ante mi, eget eleifend odio dapibus vitae. Cras quis ligula ac dolor commodo imperdiet pulvinar efficitur elit. Sed non neque non sapien dapibus semper non a arcu. Nunc ornare, risus nec fermentum congue, est nulla suscipit leo, ac congue dui nulla eu purus. Maecenas vitae nisi placerat lorem laoreet sodales. Praesent venenatis ornare erat, eu consectetur mi accumsan auctor. Duis enim nisl, porta at tortor ac, rhoncus molestie diam.
+            Donec dapibus dolor nec tortor tincidunt, at tristique orci maximus. Mauris cursus tortor id faucibus pretium. Suspendisse elit nulla, pulvinar quis dolor sit amet, imperdiet lacinia ex. Integer porttitor commodo ex at congue. Aliquam quam dui, iaculis nec odio ac, porta cursus eros. Suspendisse nibh ex, lacinia ut ex eget, ullamcorper blandit nulla. Fusce et diam vitae augue vestibulum cursus et id massa. Donec cursus augue ut ex luctus aliquet. Nulla vitae odio massa. Duis dignissim pulvinar velit id vulputate. Nam ut lectus nec lorem imperdiet blandit ac quis justo. Nunc aliquam, magna ut suscipit tempus, lorem diam rutrum mi, ac hendrerit eros enim nec velit. </p>
+    </div>
+
+    <div id="EjmTabla">
+        <p id="serif">EJEMPLO DE TABLA</p>
+        <table class="tablaE">
+            <tr>
+              <th>Frameworks</th>
+              <th>Frontend</th>
+              <th>Backend</th>
+            </tr>
+            <tr>
+              <td>Boostrap</td>
+              <td>X</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>jQuerty</td>
+              <td>X</td>
+              <td></td>
+            </tr>
+            <tr>
+                <td>nodeJs</td>
+                <td></td>
+                <td>X</td>
+                
+              </tr>
+          </table>
+
+    </div>
+    <div id="LinkE">
+        <p id="serif">EJEMPLO DE LINKS</p>
+        <div class="btnE"><a href="">Click para cambiar de imagen</a></div>
+        <br>
+        <img class="original" src="logo1.png">
+    </div>
+</body>
+</html>
